@@ -8,6 +8,7 @@ This clock also contains alarm and stopwatch option.
 It was too helpful to me for handling and using API first time. And I have completely understood how API request works and API return the data from the requested server.
 
 ✅ Programming Languages : HTML, CSS, JavaScript.
+
 ✅ Tools and Technologies : Time API, Modern Dark-Themed Minimalist UI.
 
 🔗Deployment : https://app.netlify.com
