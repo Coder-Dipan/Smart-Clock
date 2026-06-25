@@ -7,4 +7,4 @@ Tools are Used : HTML, CSS, JavaScript, Time API and Modern Dark-Themed Minimali
 
 Deployment : https://app.netlify.com
 
-Live demo : 'https://smartclockzonaltime.netlify.app/'
+Live demo : https://smartclockzonaltime.netlify.app/
