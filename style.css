@@ -1,0 +1,459 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#171717;
+}
+
+/* Time Page [Default page] */
+.phone{
+    width:90%;
+    max-width:320px;
+    min-height:550px;
+    height:auto;
+    background:#252525;
+    border-radius:25px;
+    padding:20px;
+    position:relative;
+    color:white;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+/* Upper Bar Menu Options */
+.top-menu{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.top-menu button{
+    background:none;
+    border:none;
+    color:#aaa;
+    cursor:pointer;
+}
+
+.top-menu .active{
+    color:#7C4DFF;
+}
+
+.settings{
+    color:#7C4DFF;
+    font-size:20px;
+    cursor: pointer;
+}
+
+/* Analog Clock */
+
+.clock{
+    width:55vw;
+    height:55vw;
+    max-width:180px;
+    max-height:180px;
+    border-radius:50%;
+    margin:30px auto;
+    position:relative;
+    border:4px solid #2f2f2f;
+
+    box-shadow:
+    inset 0 0 30px rgba(0,0,0,0.5),
+    0 0 30px rgba(0,0,0,0.5);
+}
+
+/* Numbers of Analog Clock */
+.num{
+    position:absolute;
+    color:white;
+    font-size:10px;
+    font-weight:400;
+}
+
+.n12{
+    top:10px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.n1{
+    top:22px;
+    right:42px;
+}
+
+.n2{
+    top:52px;
+    right:15px;
+}
+
+.n3{
+    top:50%;
+    right:8px;
+    transform:translateY(-50%);
+}
+
+.n4{
+    bottom:52px;
+    right:15px;
+}
+
+.n5{
+    bottom:22px;
+    right:42px;
+}
+
+.n6{
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.n7{
+    bottom:22px;
+    left:42px;
+}
+
+.n8{
+    bottom:52px;
+    left:15px;
+}
+
+.n9{
+    top:50%;
+    left:8px;
+    transform:translateY(-50%);
+}
+
+.n10{
+    top:52px;
+    left:10px;
+}
+
+.n11{
+    top:22px;
+    left:35px;
+}
+
+/* Clock Hands */
+.hand{
+    position:absolute;
+    left:50%;
+    bottom:50%;
+    transform-origin:bottom center;
+}
+
+/* Hour hand */
+.hour{
+    width:4px;
+    height:45px;
+    background:#7C4DFF;
+    margin-left:-3px;
+}
+
+/* Minute hand */
+.minute{
+    width:2px;
+    height:55px;
+    background:#c4bbdd;
+    margin-left:-2px;
+}
+
+/* Second hand */
+.second{
+    width:0.5px;
+    height:70px;
+    background:red;
+    margin-left:-1px;
+}
+
+/* Center dot */
+.center{
+    width:10px;
+    height:10px;
+    background:#080808;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* Digital Clock */
+.digital{
+    width:80%;
+    max-width:220px;
+    margin:auto;
+    text-align:center;
+    padding:10px;
+    border-radius:12px;
+    background:#2e2e2e;
+}
+
+/* Digital Time */
+.digital h1{
+    font-size:28px;
+    letter-spacing:1px;
+}
+
+/* Date */
+.date{
+    text-align:center;
+    margin-top:10px;
+    color:#ccc;
+    font-size:14px;
+}
+
+/* Locations/Time Zones */
+#citySelect{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background:#2f2f2f;
+    color:white;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+/* Change Theme Button */
+.theme-btn{
+    position:absolute;
+    bottom:30px;
+    left:50%;
+    transform:translateX(-50%);
+    width:30%;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    background:#7C4DFF;
+    color:white;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.theme-btn:hover{
+    background-color: #470a84;
+}
+
+/* Light Theme */
+body.light-theme{
+    background:#a8a4a4;
+}
+
+body.light-theme .phone{
+    background:#f5f5f5;
+    color:#111;
+}
+
+body.light-theme .digital{
+    background:#e0e0e0;
+}
+
+body.light-theme .date{
+    color:#444;
+}
+
+body.light-theme #citySelect{
+    background:#e0e0e0;
+    color:#111;
+}
+
+body.light-theme .clock{
+    border:4px solid #ccc;
+}
+
+body.light-theme .num{
+    color:#111;
+}
+
+/* Alarm page */
+#alarmPage{
+    margin-top:40px;
+    text-align:center;
+}
+
+/* Select Alarm Time */
+#alarmTime{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    background:#2f2f2f;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+/* Set Alarm Button */
+#setAlarmBtn{
+    width:30%;
+    margin-top:20px;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#7C4DFF;
+    color:white;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#setAlarmBtn:hover{
+    background-color: #470a84;
+}
+
+/* Stop Button */
+#stopAlarmBtn{
+    width:30%;
+    margin-top:20px;
+    margin-left:10px;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#ff4444;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#stopAlarmBtn:hover{
+    background:#a80303;
+}
+
+/* Alarm Status */
+#alarmStatus{
+    padding-top: 20px;
+}
+
+
+/* Stop Watch page */
+#stopwatchPage{
+    text-align:center;
+    margin-top:40px;
+}
+
+/* Stop Watch Heading */
+#stopwatchDisplay{
+    margin:30px 0;
+    font-size:40px;
+}
+
+/* Start, Stop, Reset Buttons */
+#stopwatchPage button{
+    padding:10px 20px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    background:#7C4DFF;
+    color:white;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#stopwatchPage button:hover{
+    background-color: #470a84;
+    color: #f7eded;
+}
+
+/* Settings Icon Features */
+.modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    justify-content:center;
+    align-items:center;
+}
+
+.modal-content{
+    width:280px;
+    background:#2f2f2f;
+    color:white;
+    padding:20px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* Check Boxes */
+.modal-content label{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* Close Button */
+.modal-content button{
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background:#7C4DFF;
+    color:white;
+    cursor:pointer;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#closeSettings:hover{
+    background: #470a84;
+}
+
+
+/* Responsive */
+@media (max-width:480px){
+
+    .phone{
+        width:95%;
+        padding:15px;
+    }
+
+    .digital h1{
+        font-size:22px;
+    }
+
+    #stopwatchDisplay{
+        font-size:32px;
+    }
+
+    .theme-btn{
+        width:50%;
+    }
+
+    #setAlarmBtn,
+    #stopAlarmBtn{
+        width:40%;
+    }
+
+    .modal-content{
+        width:90%;
+    }
+
+}
+
+/* Small Devices */
+@media (max-width:320px){
+
+    .digital h1{
+        font-size:18px;
+    }
+
+    .clock{
+        width:140px;
+        height:140px;
+    }
+
+    #citySelect{
+        font-size:12px;
+    }
+
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital and Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Clock Body -->
+<div class="phone">
+<!-- Upper bar Menu Options-->
+        <div class="top-menu">
+            <button id="timeBtn" class="active">Time</button>
+            <button id="alarmBtn">Alarm</button>
+            <button id="stopwatchBtn">Stop Watch</button>
+            <span class="settings">⚙</span>
+        </div>
+
+    <!-- Time Page [Default page] -->
+    <div id="timePage">
+
+        <!-- Analog Clock -->
+        <div class="clock">
+
+            <div class="num n12">12</div>
+            <div class="num n1">1</div>
+            <div class="num n2">2</div>
+            <div class="num n3">3</div>
+            <div class="num n4">4</div>
+            <div class="num n5">5</div>
+            <div class="num n6">6</div>
+            <div class="num n7">7</div>
+            <div class="num n8">8</div>
+            <div class="num n9">9</div>
+            <div class="num n10">10</div>
+            <div class="num n11">11</div>
+
+            <div class="hand hour"></div>
+            <div class="hand minute"></div>
+            <div class="hand second"></div>
+
+            <div class="center"></div>
+
+        </div>
+
+        <!-- Digital Clock -->
+        <div class="digital">
+            <!-- Digital Time -->
+            <h1 id="time"></h1>
+        </div>
+
+        <!-- Date -->
+        <p class="date" id="date"></p>
+
+        <!-- Locations/Time Zones -->
+        <select id="citySelect">
+
+            <!-- India -->
+            <option value="Asia/Kolkata">Kolkata, India</option>
+            <option value="Asia/Kolkata">Delhi, India</option>
+            <option value="Asia/Kolkata">Mumbai, India</option>
+            <option value="Asia/Kolkata">Chennai, India</option>
+            <option value="Asia/Kolkata">Bangalore, India</option>
+            <option value="Asia/Kolkata">Hyderabad, India</option>
+
+            <!-- Asia -->
+            <option value="Asia/Tokyo">Tokyo, Japan</option>
+            <option value="Asia/Seoul">Seoul, South Korea</option>
+            <option value="Asia/Shanghai">Shanghai, China</option>
+            <option value="Asia/Hong_Kong">Hong Kong</option>
+            <option value="Asia/Singapore">Singapore</option>
+            <option value="Asia/Bangkok">Bangkok, Thailand</option>
+            <option value="Asia/Dubai">Dubai, UAE</option>
+            <option value="Asia/Kathmandu">Kathmandu, Nepal</option>
+            <option value="Asia/Dhaka">Dhaka, Bangladesh</option>
+            <option value="Asia/Karachi">Karachi, Pakistan</option>
+
+            <!-- Europe -->
+            <option value="Europe/London">London, UK</option>
+            <option value="Europe/Paris">Paris, France</option>
+            <option value="Europe/Berlin">Berlin, Germany</option>
+            <option value="Europe/Rome">Rome, Italy</option>
+            <option value="Europe/Madrid">Madrid, Spain</option>
+            <option value="Europe/Amsterdam">Amsterdam, Netherlands</option>
+            <option value="Europe/Moscow">Moscow, Russia</option>
+            <option value="Europe/Athens">Athens, Greece</option>
+            <option value="Europe/Zurich">Zurich, Switzerland</option>
+
+            <!-- North America -->
+            <option value="America/New_York">New York, USA</option>
+            <option value="America/New_York">Washington DC, USA</option>
+            <option value="America/Chicago">Chicago, USA</option>
+            <option value="America/Denver">Denver, USA</option>
+            <option value="America/Los_Angeles">Los Angeles, USA</option>
+            <option value="America/Los_Angeles">San Francisco, USA</option>
+            <option value="America/Toronto">Toronto, Canada</option>
+            <option value="America/Vancouver">Vancouver, Canada</option>
+            <option value="America/Mexico_City">Mexico City, Mexico</option>
+
+            <!-- South America -->
+            <option value="America/Sao_Paulo">São Paulo, Brazil</option>
+            <option value="America/Argentina/Buenos_Aires">Buenos Aires, Argentina</option>
+            <option value="America/Lima">Lima, Peru</option>
+            <option value="America/Bogota">Bogotá, Colombia</option>
+
+            <!-- Africa -->
+            <option value="Africa/Cairo">Cairo, Egypt</option>
+            <option value="Africa/Johannesburg">Johannesburg, South Africa</option>
+            <option value="Africa/Nairobi">Nairobi, Kenya</option>
+            <option value="Africa/Lagos">Lagos, Nigeria</option>
+
+            <!-- Australia & Oceania -->
+            <option value="Australia/Sydney">Sydney, Australia</option>
+            <option value="Australia/Melbourne">Melbourne, Australia</option>
+            <option value="Australia/Perth">Perth, Australia</option>
+            <option value="Pacific/Auckland">Auckland, New Zealand</option>
+            <option value="Pacific/Fiji">Fiji</option>
+
+            
+        </select>
+
+        <!-- Change Theme Button -->
+        <button class="theme-btn">Dark Mode</button>
+    </div>
+
+
+    <!-- Alarm Page -->
+    <div id="alarmPage" style="display:none;">
+        <!-- Alarm page Heading -->
+        <h2>Set Alarm</h2>
+
+        <!-- Select Alarm Time -->
+        <input type="time" id="alarmTime">
+
+        <!-- Set Button -->
+        <button id="setAlarmBtn">
+            Set
+        </button>
+
+        <!-- Stop Button -->
+        <button id="stopAlarmBtn">
+            Off
+        </button>
+
+        <!-- Alarm Status -->
+        <p id="alarmStatus">
+            No Alarm Set
+        </p>
+    </div>
+
+    <!-- Stop Watch page -->
+    <div id="stopwatchPage" style="display:none;">
+        <!-- Stop Watch page heading -->
+        <h2>Stopwatch</h2>
+
+        <!-- Stop Watch Display -->
+        <h1 id="stopwatchDisplay">
+            00:00:00
+        </h1>
+
+        <!-- Start, Stop, Reset Button -->
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="resetBtn">Reset</button>
+    </div>
+
+
+    <!-- Settings Icon Modal -->
+    <div id="settingsModal" class="modal">
+
+        <div class="modal-content">
+
+            <!-- Settings Heading -->
+            <h3>Settings</h3>
+
+            <!-- Analog Clock Check Box -->
+            <label>
+                <input type="checkbox" id="showAnalog" checked>
+                    Show Analog Clock
+            </label>
+
+            <!-- Digital Clock Check Box -->
+            <label>
+                <input type="checkbox" id="showDigital" checked>
+                Show Digital Clock
+            </label>
+
+            <!-- Close Button -->
+            <button id="closeSettings">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+    
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
