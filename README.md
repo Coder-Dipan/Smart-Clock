@@ -9,7 +9,7 @@ It was too helpful to me for handling and using API first time. And I have compl
 
 ✅ Programming Languages : HTML, CSS, JS.
 
-✅ Tools and Technologies : Time API, Modern UI.
+✅ Tools and Technologies : Time API, Modern Dark-theme Minimalist UI.
 
 🔗Deployment : https://app.netlify.com
 
