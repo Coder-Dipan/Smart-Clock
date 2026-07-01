@@ -86,7 +86,7 @@ Smart-Clock/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Smart-Clock.git
+git clone https://github.com/Coder-Dipan/Smart-Clock.git
 ```
 
 Open the folder
