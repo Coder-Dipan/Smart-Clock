@@ -232,7 +232,7 @@ During development, I faced several challenges such as:
 
 GitHub: https://github.com/Coder-Dipan
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://linkedin.com/in/dipan-mondal-8b068025b
 
 
 ---
