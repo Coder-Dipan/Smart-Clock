@@ -1,10 +1,6 @@
 # Smart Clock
 
 <p align="center">
-  <img src="images/banner.png" alt="Smart Clock Banner" width="900"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
@@ -32,7 +28,7 @@ This project helped me gain practical experience with:
 
 # Live Demo
 
-🔗 **Clock:** https://smartclockzonaltime.netlify.app/
+🔗 **Clock :** https://smartclockzonaltime.netlify.app/
 
 ---
 
@@ -54,24 +50,6 @@ This project helped me gain practical experience with:
 ## Home Page
 
 <img src="images/home.png" width="900">
-
----
-
-## Analog Clock
-
-<img src="images/analog.png" width="900">
-
----
-
-## Stopwatch
-
-<img src="images/stopwatch.png" width="900">
-
----
-
-## Alarm
-
-<img src="images/alarm.png" width="900">
 
 ---
 
