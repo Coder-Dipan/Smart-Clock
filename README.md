@@ -32,7 +32,7 @@ This project helped me gain practical experience with:
 
 # Live Demo
 
-🔗 **Website:** https://smartclockzonaltime.netlify.app/
+🔗 **Clock:** https://smartclockzonaltime.netlify.app/
 
 ---
 
@@ -265,6 +265,3 @@ If you like this project, please give it a ⭐ on GitHub!
 
 ---
 
-# 📜 License
-
-This project is licensed under the MIT License.
