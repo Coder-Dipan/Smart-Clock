@@ -1,4 +1,4 @@
-# 🕒 Smart Clock
+# Smart Clock
 
 <p align="center">
   <img src="images/banner.png" alt="Smart Clock Banner" width="900"/>
@@ -30,7 +30,7 @@ This project helped me gain practical experience with:
 
 ---
 
-# 🚀 Live Demo
+# Live Demo
 
 🔗 **Website:** https://smartclockzonaltime.netlify.app/
 
@@ -245,17 +245,6 @@ During development, I faced several challenges such as:
 - Implementing alarm logic
 - Creating an accurate stopwatch
 - Working with asynchronous API requests
-
----
-
-# 🚀 Future Improvements
-
-- 🌦 Weather Information
-- 📅 Calendar Integration
-- 🔊 Voice Alarm
-- 📱 Progressive Web App
-- 🔔 Multiple Alarms
-- 🎨 More Themes
 
 ---
 
