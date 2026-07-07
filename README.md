@@ -9,7 +9,7 @@
 
 ---
 
-# 📖 About
+# About
 
 Smart Clock is a modern web application that combines a **Digital Clock**, **Analog Clock**, **Alarm**, **Stopwatch**, and **Global Timezone Selection** into one responsive interface.
 
@@ -28,20 +28,20 @@ This project helped me gain practical experience with:
 
 # 🌐 Live Demo
 
-🔗 **Clock :** https://smartclockzonaltime.netlify.app/
+🔗 **Smart Clock :** https://smartclockzonaltime.netlify.app/
 
 ---
 
-# ✨ Features
+# 🛡️ Features
 
-- 🌍 Global Timezone Support
-- 🕒 Analog Clock
-- ⏰ Digital Clock
-- 🔔 Alarm
-- ⏱ Stopwatch
-- 🌙 Modern Dark Theme
-- 📱 Responsive Design
-- ⚡ Real-time Updates
+- Global Timezone Support
+- Analog Clock
+- Digital Clock
+- Alarm
+- Stopwatch
+- Modern Dark Theme
+- Responsive Design
+- Real-time Updates
 
 ---
 
@@ -226,7 +226,7 @@ During development, I faced several challenges such as:
 
 ---
 
-# 💻 Author
+# 🧑🏻‍🎓 Author
 
 **Dipan Mondal**
 
