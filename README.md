@@ -26,9 +26,7 @@ This project helped me gain practical experience with:
 
 ---
 
-# Live Demo
-
-🔗 **Smart Clock :** https://smartclockzonaltime.netlify.app/
+# Live Demo: https://smartclockzonaltime.netlify.app/
 
 ---
 
