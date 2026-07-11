@@ -26,7 +26,7 @@ This project helped me gain practical experience with:
 
 ---
 
-# Live Demo: https://smartclockzonaltime.netlify.app/
+# 🌐 Live Demo: https://smartclockzonaltime.netlify.app/
 
 ---
 
@@ -229,9 +229,8 @@ During development, I faced several challenges such as:
 
 **Dipan Mondal**
 
-GitHub: https://github.com/Coder-Dipan
-
-LinkedIn: https://linkedin.com/in/dipan-mondal-8b068025b
+🔗 GitHub: https://github.com/Coder-Dipan
+🔗 LinkedIn: https://linkedin.com/in/dipan-mondal-8b068025b
 
 
 ---
