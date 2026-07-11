@@ -26,7 +26,7 @@ This project helped me gain practical experience with:
 
 ---
 
-# 🌐 Live Demo
+# Live Demo
 
 🔗 **Smart Clock :** https://smartclockzonaltime.netlify.app/
 
@@ -61,6 +61,7 @@ This project helped me gain practical experience with:
 | CSS3 | Styling |
 | JavaScript | Functionality |
 | Time API | Timezone Data |
+| Dark UI | Design |
 | Netlify | Deployment |
 
 ---
