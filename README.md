@@ -59,7 +59,7 @@ This project helped me gain practical experience with:
 | CSS3 | Styling |
 | JavaScript | Functionality |
 | Time API | Timezone Data |
-| Dark UI | Design |
+| Dark UI | Modern Design |
 | Netlify | Deployment |
 
 ---
